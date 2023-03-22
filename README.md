@@ -10,11 +10,19 @@
 
 # Installation
 
-<p>Um dieses Modul zu verwenden, laden Sie einfach den gesamten Code herunter und importieren Sie die ContromeAPI-Klasse in Ihrem Python-Projekt:</p>
+<p>Um dieses Modul zu verwenden, installieren Sie es über pip</p>
 
 ```python
 
-from controme_api import ContromeAPI
+pip install controme
+
+```
+
+oder 
+
+```bash
+
+python3 -m pip install controme
 
 ```
 
@@ -24,7 +32,7 @@ Ein Beispiel, wie Sie dieses Modul verwenden können:
 
 ```python
 
-from controme_api import ContromeAPI
+from controme import ContromeAPI
 
 base_url = "http://miniserver_ip"
 haus_id = 1
