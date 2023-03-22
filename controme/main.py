@@ -98,10 +98,10 @@ class ContromeAPI:
 
 
 if __name__ == "__main__":
-    base_url = "http://10.72.12.80"
+    base_url = "http://miniserver_ip"
     haus_id = 1
-    user = "m.bick@me.com"
-    password = "JuX4HPvB*3$XwBVP"
+    user = "username"
+    password = "password"
 
     api = ContromeAPI(base_url, haus_id, user, password)
     deviation = api.get_deviation()
