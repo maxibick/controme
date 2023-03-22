@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='controme',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
         # Liste der Abhängigkeiten
@@ -12,7 +12,7 @@ setup(
     description='Module to read from controme API Endpoint',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/maxibck/controme',
+    url='https://github.com/maxibick/controme',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
